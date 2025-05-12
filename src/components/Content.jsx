@@ -5,25 +5,28 @@ const Para = styled.p`
   line-height: 28px;
   font-weight: 400;
   letter-spacing: -0.025em;
+  color: #364153;
 `;
 const HeadingSecondary = styled.h2`
   font-size: 34px;
   line-height: 40px;
   font-weight: 600;
   letter-spacing: -0.025em;
+  color: #15243d;
 `;
 const HeadingTertiary = styled.h3`
   font-size: 26px;
   line-height: 40px;
   font-weight: 600;
   letter-spacing: -0.025em;
+  color: #15243d;
 `;
 
 function Content() {
   return (
     <>
       <div className=" px-5 md:px-[75px] overflow-x-clip pb-12">
-        <div className="py-6 flex flex-col-reverse md:flex-row justify-around items-center md:gap-[50px] lg:gap-[190px]">
+        <div className="py-6 flex flex-col-reverse lg:flex-row justify-around items-center md:gap-[50px] lg:gap-[190px]">
           <div className="flex flex-col gap-5">
             <HeadingSecondary>Unlock Your Financial Potential</HeadingSecondary>
 
@@ -49,19 +52,19 @@ function Content() {
           </div>
           <img
             src="/home-img-01.png"
-            // height="470px"
-            // width="470px"
-            className="md:pr-4 md:w-[300px] md:h-[300px] lg:w-[470px] lg:h-[470px]"
+            height="470px"
+            width="470px"
+            className="md:pr-4 "
           />
         </div>
 
         {/* ////////////////////////////////// */}
-        <div className="py-6 flex flex-col md:flex-row justify-around items-center gap-8 md:gap-[100px] lg:gap-[270px]">
+        <div className="py-6 flex flex-col lg:flex-row justify-around items-center gap-8 md:gap-[100px] lg:gap-[270px]">
           <img
             src="/home-img-02.png"
-            // height="470px"
-            // width="470px"
-            className="md:pr-4 md:w-[300px] md:h-[200px] lg:w-[470px] lg:h-[470px]"
+            height="470px"
+            width="470px"
+            className="md:pr-4 "
           />
           <div className=" flex flex-col gap-5">
             <HeadingSecondary className=" max-w-[450px]">
@@ -78,7 +81,7 @@ function Content() {
           </div>
         </div>
         {/* ////////////////////////////////// */}
-        <div className="py-6 flex flex-col-reverse md:flex-row justify-around items-center gap-8 md:gap-[100px] lg:gap-[270px]">
+        <div className="py-6 flex flex-col-reverse lg:flex-row justify-around items-center gap-8 md:gap-[100px] lg:gap-[270px]">
           <div className=" flex flex-col gap-5">
             <HeadingSecondary className="max-w-[400px]">
               Stay Ahead of <br />
@@ -93,18 +96,18 @@ function Content() {
           </div>
           <img
             src="/home-img-03.png"
-            // height="470px"
-            // width="470px"
-            className="md:pr-4 md:w-[300px] md:h-[200px] lg:w-[470px] lg:h-[470px]"
+            height="470px"
+            width="470px"
+            className="md:pr-4 "
           />
         </div>
         {/* ////////////////////////////////// */}
-        <div className="py-6 flex flex-col md:flex-row justify-around items-center gap-8 md:gap-100px] lg:gap-[270px]">
+        <div className="py-6 flex flex-col lg:flex-row justify-around items-center gap-8 md:gap-100px] lg:gap-[270px]">
           <img
             src="/home-img-04.png"
-            // height="470px"
-            // width="470px"
-            className="md:pr-4 md:w-[300px] md:h-[200px] lg:w-[470px] lg:h-[470px]"
+            height="470px"
+            width="470px"
+            className="md:pr-4 "
           />
           <div className=" flex flex-col gap-5">
             <HeadingSecondary>Our Investment Philosophy</HeadingSecondary>
@@ -166,7 +169,7 @@ function Content() {
         {/* /////////////////////////// */}
 
         <div className=" hidden lg:flex items-center justify-between gap-[170px] mt-4">
-          <p className="text-[20px]/6 font-normal tracking-tight flex flex-col gap-5">
+          <p className="text-[20px]/6 font-normal tracking-tight flex flex-col gap-5 text-[#364153]">
             <span>
               The 33% Fund is a unique investment fund designed for those
               seeking to align their financial goals with Sharia-compliant

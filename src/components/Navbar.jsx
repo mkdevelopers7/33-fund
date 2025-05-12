@@ -75,9 +75,7 @@ const Navbar = () => {
               <a
                 key={label}
                 href="#"
-                className={`relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:bg-primary-hover after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 hover:text-primary-hover ${
-                  i === 0 ? "active-menu" : ""
-                }`}
+                className={`relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:bg-primary-hover after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 hover:text-primary-hover `}
               >
                 {label}
               </a>
