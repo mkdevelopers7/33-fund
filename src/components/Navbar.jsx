@@ -78,7 +78,7 @@ const Navbar = () => {
               aria-label={isOpen ? "Close menu" : "Open menu"}
             >
               {isOpen ? (
-                <HiXMark className="h-6 w-6" />
+                <HiXMark className="h-8 w-8" />
               ) : (
                 <HiBars3 className="h-8 w-8" />
               )}
