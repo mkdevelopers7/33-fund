@@ -63,7 +63,7 @@ const Navbar = () => {
             </a>
           </div> */}
 
-          <div className="hidden md:flex md:items-center md:gap-4 lg:gap-11 text-primary text-[14px] mt-1">
+          <div className="hidden md:flex md:items-center md:gap-[14px] lg:gap-11 text-primary text-[14px] mt-1">
             {[
               "Home",
               "About Us",
@@ -75,7 +75,9 @@ const Navbar = () => {
               <a
                 key={label}
                 href="#"
-                className={`relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:bg-primary-hover after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 hover:text-primary-hover `}
+                className={`relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:bg-primary-hover after:scale-x-0 after:origin-left after:transition-transform after:duration-300  hover:text-primary-hover ${
+                  i === 0 ? "font-semibold" : "hover:after:scale-x-100"
+                } `}
               >
                 {label}
               </a>
