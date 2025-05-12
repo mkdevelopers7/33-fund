@@ -22,7 +22,7 @@ const HeadingTertiary = styled.h3`
 function Content() {
   return (
     <>
-      <div className=" px-5 md:px-[75px] overflow-x-clip pb-12 sm:bg-amber-300 md:bg-green-400 lg:bg-red-400">
+      <div className=" px-5 md:px-[75px] overflow-x-clip pb-12">
         <div className="py-6 flex flex-col-reverse md:flex-row justify-around items-center md:gap-[50px] lg:gap-[190px]">
           <div className="flex flex-col gap-5">
             <HeadingSecondary>Unlock Your Financial Potential</HeadingSecondary>
