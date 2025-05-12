@@ -22,8 +22,8 @@ const HeadingTertiary = styled.h3`
 function Content() {
   return (
     <>
-      <div className=" px-2 md:px-[75px] overflow-x-clip">
-        <div className="py-6 flex flex-col md:flex-row justify-around items-center gap-[190px]">
+      <div className=" px-5 md:px-[75px] overflow-x-clip pb-12">
+        <div className="py-6 flex flex-col-reverse md:flex-row justify-around items-center md:gap-[190px]">
           <div className="flex flex-col gap-5">
             <HeadingSecondary>Unlock Your Financial Potential</HeadingSecondary>
 
@@ -56,7 +56,7 @@ function Content() {
         </div>
 
         {/* ////////////////////////////////// */}
-        <div className="py-6 flex flex-col md:flex-row justify-around items-center gap-[270px]">
+        <div className="py-6 flex flex-col md:flex-row justify-around items-center gap-8 md:gap-[270px]">
           <img
             src="/home-img-02.png"
             height="470px"
@@ -78,7 +78,7 @@ function Content() {
           </div>
         </div>
         {/* ////////////////////////////////// */}
-        <div className="py-6 flex flex-col md:flex-row justify-around items-center gap-[270px]">
+        <div className="py-6 flex flex-col-reverse md:flex-row justify-around items-center gap-8 md:gap-[270px]">
           <div className=" flex flex-col gap-5">
             <HeadingSecondary className="max-w-[400px]">
               Stay Ahead of <br />
@@ -99,7 +99,7 @@ function Content() {
           />
         </div>
         {/* ////////////////////////////////// */}
-        <div className="py-6 flex flex-col md:flex-row justify-around items-center gap-[270px]">
+        <div className="py-6 flex flex-col md:flex-row justify-around items-center gap-8 md:gap-[270px]">
           <img
             src="/home-img-04.png"
             height="470px"
@@ -152,20 +152,20 @@ function Content() {
             // height="100px"
             // width="445px"
             alt="wealth path conference image"
-            className="h-[130px] mt-12"
+            className="hidden md:block h-[130px] mt-12"
           />
         </div>
-        <div className="flex gap-10 mt-4">
-          <button className="bg-secondary text-xl font-semibold text-slate-50 py-[8px] px-[60px] rounded-[5px] hover:bg-secondary-hover">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-10 mt-4">
+          <button className="bg-secondary text-xl font-semibold text-slate-50 py-[8px] md:px-[60px] md:w-auto rounded-[5px] hover:bg-secondary-hover text-center w-[60%] mx-auto md:mx-0">
             Website
           </button>
-          <button className="bg-secondary text-xl font-semibold text-slate-50 py-[8px] px-[60px] rounded-[5px] hover:bg-secondary-hover">
+          <button className="bg-secondary text-xl font-semibold text-slate-50 py-[8px] md:px-[60px] w-[60%] md:w-auto mx-auto md:mx-0 rounded-[5px] hover:bg-secondary-hover">
             Buy Tickets
           </button>
         </div>
         {/* /////////////////////////// */}
 
-        <div className="flex items-center justify-between gap-[170px] mt-4">
+        <div className=" hidden md:flex items-center justify-between gap-[170px] mt-4">
           <p className="text-[20px]/6 font-normal tracking-tight flex flex-col gap-5">
             <span>
               The 33% Fund is a unique investment fund designed for those
