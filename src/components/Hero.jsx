@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="relative h-[75vh] md:h-[85vh] bg-cover bg-center bg-[url('/bg-image.jpg')]">
+    <div className="relative h-[75vh] md:h-[85vh] bg-cover bg-center bg-[url('/bg-image1.jpg')]">
       <div className="absolute inset-0 bg-black/65 z-0"></div>
       <div className="relative z-10 flex items-center justify-center h-full text-white">
         <div className="flex flex-col tracking-normal gap-0 items-center justify-center">
