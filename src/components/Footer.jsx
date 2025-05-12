@@ -24,9 +24,9 @@ function Footer() {
             aliquid repellendus culpa in.
           </p>
         </div>
-        <div className="flex flex-col gap-6 w-[20%]">
+        <div className="flex flex-col gap-8 w-[20%]">
           <h3 className="text-[18px] font-semibold text-[#170F49]">Company</h3>
-          <div className="flex flex-col gap-1 text-[16px]/[28px] text-[#6F6C90] tracking-normal">
+          <div className="flex flex-col gap-1 text-[14px]/[28px] text-[#6F6C90] tracking-normal">
             <a href="#">About</a>
             <a href="#">Contact Us</a>
             <a href="#">Careers</a>
@@ -34,22 +34,22 @@ function Footer() {
             <a href="#">Blog</a>
           </div>
         </div>
-        <div className="flex flex-col gap-6 w-[20%]">
+        <div className="flex flex-col gap-8 w-[20%]">
           <h3 className="text-[18px] font-semibold text-[#170F49]">
             Contact Us
           </h3>
-          <div className="flex flex-col gap-4 text-[16px]/[28px] text-[#6F6C90] tracking-normal">
+          <div className="flex flex-col gap-4 text-[14px]/[28px] text-[#6F6C90] tracking-normal">
             <a href="#" className="flex items-center gap-2">
-              <HiOutlineEnvelope className="h-5 w-5 mt-1" color="#3A4F39" />
+              <HiOutlineEnvelope className="h-4 w-4 mt-1" color="#3A4F39" />
               <span>contact@company.com</span>
             </a>
 
             <a href="#" className="flex items-center gap-2">
-              <HiOutlinePhone color="#3A4F39" className="h-5 w-5 mt-1" />
+              <HiOutlinePhone color="#3A4F39" className="h-4 w-4 mt-1" />
               (414) 687 - 5892
             </a>
             <a href="#" className="flex items-start gap-2">
-              <HiOutlineMapPin color="#3A4F39" className="h-5 w-5 mt-1" />
+              <HiOutlineMapPin color="#3A4F39" className="h-4 w-4 mt-1" />
               794 Mcallister St <br />
               San Francisco, 94102
             </a>
@@ -57,9 +57,9 @@ function Footer() {
         </div>
         <div className="flex gap-6 w-[20%] items-center justify-center">
           <div className="flex gap-10 items-center justify-center text-[##3A4F39]">
-            <TfiFacebook className="h-5 w-5" color="#3A4F39" />
-            <TfiInstagram className="h-5 w-5" color="#3A4F39" />
-            <FaTwitter className="h-5 w-5" color="#3A4F39" />
+            <TfiFacebook className="h-4 w-4" color="#3A4F39" />
+            <TfiInstagram className="h-4 w-4" color="#3A4F39" />
+            <FaTwitter className="h-4 w-4" color="#3A4F39" />
           </div>
         </div>
       </div>
