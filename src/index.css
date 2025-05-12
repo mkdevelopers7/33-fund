@@ -22,6 +22,9 @@
 /* body {
   font-family: "Manrope", sans-serif;
 } */
+* {
+  transition-duration: 0.3s;
+}
 .active-menu {
   border-bottom: 1px solid #1e3559;
   /* line-height: 1.2; */
