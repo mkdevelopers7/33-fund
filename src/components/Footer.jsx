@@ -102,7 +102,7 @@ function Footer() {
       </div>
       <hr className="mt-8 w-[75%] m-auto text-[#D9DBE9]" />
       <p className="text-[14px] text-[#6F6C90] text-center mt-5">
-        Copyright © 2022 BRIX Templates
+        Copyright © 2025 MEHRAN KHAN
       </p>
     </div>
   );

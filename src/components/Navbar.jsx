@@ -8,12 +8,12 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   // sm:bg-amber-300 md:bg-green-400 lg:bg-red-400
   return (
-    <nav className="text-white ">
+    <nav>
       <div className="px-3 md:px-[30px] lg:px-[70px] sm:px-6">
-        <div className="flex h-20 md:h-16 items-center justify-between">
+        <div className="flex h-18 md:h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/logo.png" alt="logo" className="h-[40px] md:h-[46px]" />
+            <img src="/logo.png" alt="logo" className="h-[42px] md:h-[46px]" />
           </div>
 
           {/* Desktop Menu */}
@@ -68,7 +68,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center justify-center gap-5">
             <a
               href="#"
-              className="bg-primary text-slate-50 text-sm font-semibold py-[6px] px-[17px] rounded-[5px] hover:bg-primary-hover"
+              className="bg-primary text-slate-50 text-sm font-semibold py-[6px] px-[18px] rounded-[5px] hover:bg-primary-hover"
             >
               Inverster Login
             </a>
@@ -80,7 +80,7 @@ const Navbar = () => {
               {isOpen ? (
                 <HiXMark className="h-6 w-6" />
               ) : (
-                <HiBars3 className="h-6 w-6" />
+                <HiBars3 className="h-8 w-8" />
               )}
             </button>
           </div>
