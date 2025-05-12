@@ -19,9 +19,9 @@
   margin: 0;
   box-sizing: border-box;
 } */
-/* body {
+body {
   font-family: "Manrope", sans-serif;
-} */
+}
 * {
   transition-duration: 0.3s;
 }

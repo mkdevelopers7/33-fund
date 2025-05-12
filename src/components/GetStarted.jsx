@@ -5,7 +5,7 @@ function GetStarted() {
         <h2 className="text-[34px]/10 text-white tracking-tight font-semibold">
           Get Started Today
         </h2>
-        <p className="text-[24px]/8 md:text-[28px]/8 font-[350] text-white tracking-tight text-center">
+        <p className="text-[22px]/8 md:text-[24px]/8 font-[350] text-white tracking-tight text-center">
           Ready to embark on your investment journey with us? Contact our
           investor relations team to get started or schedule a one-on-one
           consultation with one of our portfolio managers.
