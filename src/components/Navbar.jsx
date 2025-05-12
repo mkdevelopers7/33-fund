@@ -145,6 +145,20 @@ const Navbar = () => {
           </a>
           <a
             href="#"
+            className="hover:text-primary-hover transition-colors"
+            onClick={toggleMenu}
+          >
+            Investment Strategies
+          </a>
+          <a
+            href="#"
+            className="hover:text-primary-hover transition-colors"
+            onClick={toggleMenu}
+          >
+            FAQ's
+          </a>
+          <a
+            href="#"
             className="flex items-center gap-2 hover:text-primary-hover transition-colors"
             onClick={toggleMenu}
           >
