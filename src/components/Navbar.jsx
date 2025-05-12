@@ -9,11 +9,11 @@ const Navbar = () => {
   // sm:bg-amber-300 md:bg-green-400 lg:bg-red-400
   return (
     <nav className="text-white ">
-      <div className="px-6 md:px-[30px] lg:px-[70px] sm:px-6">
+      <div className="px-3 md:px-[30px] lg:px-[70px] sm:px-6">
         <div className="flex h-20 md:h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/logo.png" alt="logo" className="h-[50px] md:h-[46px]" />
+            <img src="/logo.png" alt="logo" className="h-[40px] md:h-[46px]" />
           </div>
 
           {/* Desktop Menu */}
@@ -68,7 +68,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center justify-center gap-5">
             <a
               href="#"
-              className="bg-primary text-slate-50 py-[6px] px-[22px] rounded-[5px] hover:bg-primary-hover"
+              className="bg-primary text-slate-50 text-sm font-semibold py-[6px] px-[17px] rounded-[5px] hover:bg-primary-hover"
             >
               Inverster Login
             </a>
